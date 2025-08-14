@@ -1,0 +1,108 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+nav .logo {
+  font-size: 34px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #434aa1;
+  font-weight: 500;
+}
+
+/* intro  */
+
+.intro{
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.text-content h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.text-content .btn {
+  display: inline-block;
+  background-color: #8b5c2c;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.illustration img {
+  width: 100%;
+}
+
+/* Facility */
+.facility {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.facility-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.facility .item {
+  flex: 1 1 200px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+/* Menu */
+.menu {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.menu-grid div {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* footer  */
+footer {
+  color: #000;
+  text-align: center;
+  padding: 20px 0;
+}
