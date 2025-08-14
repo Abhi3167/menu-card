@@ -3,6 +3,19 @@ body {
   background: #f9f9f9;
   color: #333;
 }
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  font-size: medium;
+  font-weight: 200;
+   font-family: 'Segoe UI', sans-serif;
+
+  
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -29,6 +42,18 @@ nav ul li a {
   text-decoration: none;
   color: #434aa1;
   font-weight: 500;
+}
+.loreamm {
+    padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+.heaven {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 /* intro  */
